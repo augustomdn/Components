@@ -1,0 +1,70 @@
+button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 700;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+
+//Sizes ( Tamanhos )
+.small {
+    width: 70px;
+    font-size: 13px;
+    padding: 10px 16px;
+}
+
+.medium {
+    width: 100px;
+    font-size: 15px;
+    padding: 11px 20px;
+}
+
+.large {
+    width: 130px;
+    font-size: 18px;
+    padding: 12px 24px;
+}
+
+
+//Types ( Tipos )
+.primary {
+    background-color: #00CDFF;
+}
+
+.primary:hover {
+    background-color: #0fbbe6;
+}
+
+.secondary {
+    background-color: #39575e;
+}
+
+.secondary:hover {
+    background-color: #304044;
+}
+
+.danger {
+    background-color: #FF0F00;
+}
+
+.danger:hover {
+    background-color: #cc2114;
+}
+
+.warning {
+    background-color: #FF9B00;
+}
+
+.warning:hover {
+    background-color: #dd8e17;
+}
+
+.mode {
+    border-radius: 30px;
+}
