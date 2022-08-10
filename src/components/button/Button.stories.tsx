@@ -1,5 +1,5 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-import { click } from "@testing-library/user-event/dist/click";
+
 import { Button } from "./Button";
 
 export default {
