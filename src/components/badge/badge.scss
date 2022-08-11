@@ -1,0 +1,40 @@
+.badge {
+    padding: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+//Types
+.primaryBadge {
+    background-color: #d6e0ff;
+}
+
+.secondaryBadge {
+    background-color: #edeff5;
+}
+
+.successBadge {
+    background-color: #c6f6d5;
+}
+
+.infoBadge {
+    background-color: #ffefd2;
+}
+
+.dangerBadge {
+    background-color: #f9dada;
+}
+
+.warningBadge {
+    background-color: #f8ca68;
+}
+
+.lightBadge{
+    background-color: #d3f5f7;
+}
+
+.darkBadge {
+    background-color: #e7e4f9;
+}

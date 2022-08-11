@@ -4,7 +4,7 @@ import './button.scss'
 
 
 interface Props {
-    type?: 'primary' | 'secondary' | 'danger' | 'warning'
+    type?: 'primaryButton' | 'secondaryButton' | 'dangerButton' | 'warningButton'
     size?: 'small' | 'medium' | 'large'
     label?: string
     click?: () => void

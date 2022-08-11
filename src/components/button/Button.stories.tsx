@@ -17,7 +17,7 @@ export const Primary = Template.bind({});
 
 Primary.args = {
     label: 'Primary',
-    type: 'primary',
+    type: 'primaryButton',
     click: () => alert("Primary")
 };
 
@@ -25,7 +25,7 @@ export const Secondary = Template.bind({});
 
 Secondary.args = {
     label: 'Secondary',
-    type: 'secondary',
+    type: 'secondaryButton',
     click: () => alert("Secondary")
 };
 
@@ -33,7 +33,7 @@ export const Danger = Template.bind({});
 
 Danger.args = {
     label: 'Danger',
-    type: 'danger',
+    type: 'dangerButton',
     click: () => alert("Danger")
 };
 
@@ -41,6 +41,6 @@ export const Warning = Template.bind({});
 
 Warning.args = {
     label: 'Warning',
-    type: 'warning',
+    type: 'warningButton',
     click: () => alert("Warning")
 };
